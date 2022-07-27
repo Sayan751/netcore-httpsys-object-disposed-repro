@@ -1,0 +1,29 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:11516",
+      "sslPort": 44316
+    }
+  },
+  "profiles": {
+	"hosting-service": {
+		"commandName": "Project",
+		"commandLineArgs": "/Webroot=Content",
+		"launchBrowser": true,
+		"environmentVariables": {
+			"ASPNETCORE_ENVIRONMENT": "Development"
+		},
+		"applicationUrl": "https://gh.repro.sp.dev:7048",
+		"dotnetRunMessages": true
+	},
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

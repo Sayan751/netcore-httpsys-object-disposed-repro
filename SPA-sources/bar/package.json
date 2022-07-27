@@ -1,0 +1,64 @@
+{
+  "name": "bar",
+  "description": "An Aurelia client application.",
+  "version": "0.1.0",
+  "repository": {
+    "type": "???",
+    "url": "???"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "aurelia-animator-css": "^1.0.4",
+    "aurelia-bootstrapper": "^2.4.0",
+    "aurelia-i18n": "^4.0.3",
+    "i18next-fetch-backend": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.35",
+    "@types/webpack": "^5.28.0",
+    "@typescript-eslint/eslint-plugin": "^5.25.0",
+    "@typescript-eslint/parser": "^5.25.0",
+    "app-settings-loader": "^2.0.5",
+    "aurelia-cli": "^3.0.0",
+    "aurelia-testing": "^1.1.0",
+    "aurelia-webpack-plugin": "^5.0.4",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.1",
+    "duplicate-package-checker-webpack-plugin": "^3.0.0",
+    "eslint": "^8.15.0",
+    "expose-loader": "^4.0.0",
+    "gulp": "^4.0.2",
+    "gulp-eslint": "^6.0.0",
+    "html-loader": "^3.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "json-loader": "^0.5.7",
+    "mini-css-extract-plugin": "^2.6.0",
+    "minimatch": "^5.1.0",
+    "promise-polyfill": "^8.2.3",
+    "style-loader": "^3.3.1",
+    "tree-kill": "^1.2.2",
+    "ts-loader": "^9.3.0",
+    "tslib": "^2.4.0",
+    "typescript": "^4.6.4",
+    "webpack": "^5.72.1",
+    "webpack-bundle-analyzer": "^4.5.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  },
+  "scripts": {
+    "build": "webpack --env production",
+    "start": "webpack server --hot --port 9002",
+    "build:dev": "webpack",
+    "analyze": "webpack --env production --analyze"
+  },
+  "engines": {
+    "node": ">=14.15.0"
+  },
+  "overrides": {
+    "chokidar": "^3.0.0",
+    "glob-stream": "^7.0.0",
+    "glob-parent": "^6.0.0",
+    "micromatch": "^4.0.0"
+  }
+}

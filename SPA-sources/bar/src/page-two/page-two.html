@@ -1,0 +1,11 @@
+<template>
+  <h1 t="page-two.r1">bar two</h1>
+  <div class="content">
+    <img src.bind="img">
+    <div>
+      <template repeat.for="i of keys">
+        <p t="page-two.r${i}"></p>
+      </template>
+    </div>
+  </div>
+</template>

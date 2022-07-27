@@ -1,0 +1,24 @@
+{
+	"categories": [
+		{
+			"apps": [
+				{
+					"path": "/foo/page-one"
+				},
+				{
+					"path": "/foo/page-two"
+				}
+			]
+		},
+		{
+			"apps": [
+				{
+					"path": "/bar/page-one"
+				},
+				{
+					"path": "/bar/page-two"
+				}
+			]
+		}
+	]
+}

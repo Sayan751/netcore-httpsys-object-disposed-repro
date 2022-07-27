@@ -1,0 +1,16 @@
+<template>
+  <nav class="top-nav-bar">
+    <nav>
+      <a href="${hostingUrl}/foo" data-router-ignore>foo</a>
+      <a href="${hostingUrl}/bar" data-router-ignore>bar</a>
+    </nav>
+    <nav>
+      <a click.trigger="setLocale($event, 'en')" href="#">en</a>
+      <a click.trigger="setLocale($event, 'de')" href="#">de</a>
+    </nav>
+  </nav>
+  <nav>
+    <a repeat.for="item of router.navigation" href.bind="item.href">${item.title}</a>
+  </nav>
+  <router-view></router-view>
+</template>

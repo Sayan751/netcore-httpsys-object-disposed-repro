@@ -1,0 +1,18 @@
+nav {
+  display: flex;
+  gap: 0.5rem;
+}
+
+nav.top-nav-bar {
+  justify-content: space-between;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 0.5rem;
+}
+
+.content>img {
+  max-width: 100%;
+}

@@ -1,0 +1,11 @@
+<template>
+  <h1 t="page-one.r1">foo one</h1>
+  <div class="content">
+    <img src.bind="img">
+    <div>
+      <template repeat.for="i of keys">
+        <p t="page-one.r${i}"></p>
+      </template>
+    </div>
+  </div>
+</template>

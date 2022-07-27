@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "configurations": [
+    {
+      "name": "run tests",
+      "type": "node",
+      "request": "launch",
+      "args": [
+        "--timeout",
+        "0",
+        "--config",
+        "${workspaceRoot}/e2e/.mocharc.js",
+        "${workspaceRoot}/e2e/tests/**/*.spec.ts"
+      ],
+      "cwd": "${workspaceRoot}/e2e",
+      "program": "${workspaceRoot}/e2e/node_modules/mocha/bin/_mocha",
+      
+      "autoAttachChildProcesses": true,      
+      "console": "integratedTerminal"
+    }
+  ]
+}
