@@ -71,7 +71,7 @@ If the log level is changed to `Trace` (`appsettings.Development.json`), ...
 
 ```
 
-...it seems that the `fail` log is changed into a `dbg` log.
+...it seems that the `fail` log is changed into a `dbug` log.
 
 ```log
 dbug: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[14]
